@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+
+Map<String, IconData> iconMap = {
+  'menu': Icons.menu,
+  'home': Icons.home,
+  'social': Icons.contacts_outlined,
+  'make_payment': Icons.monetization_on,
+  'activity': Icons.query_stats,
+  'me': Icons.person_rounded,
+  'wallet': Icons.wallet_membership,
+  'chats': Icons.chat,
+  'support': Icons.help_outline,
+  'topup': Icons.add_business,
+  'withdraw_money': Icons.manage_accounts,
+  'send_money': Icons.people,
+  'reports': Icons.summarize_outlined,
+  'settings': Icons.settings,
+  'change_password': Icons.lock,
+  'language': Icons.language_outlined,
+  'cloud_upload': Icons.cloud_upload,
+  'info': Icons.info_outline,
+  'logout': Icons.logout,
+
+  // sysops
+  'wallet_users': Icons.people,
+  'wallet_level': Icons.credit_score,
+  'adjustment': Icons.manage_search,
+  'merchant': Icons.business,
+  'submit_merchant': Icons.approval_outlined,
+  'review_merchant': Icons.fact_check_outlined,
+  'approve_merchant': Icons.check_circle_outline,
+  'list_merchants': Icons.people,
+  'payment': Icons.monetization_on,
+  'sysusers': Icons.people,
+  'sysroles': Icons.group_work,
+  'permissions': Icons.doorbell,
+  'lock': Icons.lock,
+
+  'add': Icons.add,
+};
